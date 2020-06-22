@@ -13,11 +13,12 @@ body{
 }
 
 header{
-    background: #354248;
+    background-color: slategray;
     color: white;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: red 3px solid;
+    border-bottom:whitesmoke 3px solid;
+    border-radius: 10px;
 }
 
 header a{
@@ -53,7 +54,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: orange;
     font-weight: bold;
 }
 
@@ -64,10 +65,12 @@ header a:hover{
 }
 
 #showcase{
-    min-height: 400px;
-    background-image:url('../images/shw.jpg');
+    min-height: 500px;
+    background-image:url('../images/show.jpg');
     text-align: center;
     color: white;
+    border-bottom: whitesmoke 3px solid;
+    border-radius: 10px;
 }
 
 #showcase h1{
@@ -78,16 +81,21 @@ header a:hover{
 
 #showcase p{
     font-size: 18px;
+    color: burlywood;
 }
 
 #newsletter{
     padding: 15px;
-    background-color: #35424a;
+    background-color: slategray;
     color: antiquewhite;
+    border-bottom: whitesmoke 3px solid;
+    border-radius: 10px;
 }
 
 #newsletter h1{
     float: left;
+    color: black;
+    font-size: 22px;
 }
 
 #newsletter form{
@@ -108,11 +116,12 @@ aside#sidebar{
 }
 
 .dark{
-    padding: 15px;
-    color: whitesmoke;
-    background-color: darkslateblue;
+    padding: 10px;
+    color: black;
+    background-color: cornflowerblue;
     margin-top: 5px;
     margin-bottom: 5px;
+    border-radius: 15px;
 }
 
 article#main_col{
@@ -122,11 +131,12 @@ article#main_col{
 
 .button1{
     height: 38px;
-    background: orangered;
+    background-color: dodgerblue;
     border: 0cm;
     padding-left: 20px;
     padding-right: 20px;
-    color: antiquewhite;
+    color: black;
+    border-radius: 20px;
 }
 
 #boxes{
@@ -155,22 +165,27 @@ ul#services li{
 
 aside#sidebar .ff input, aside#sidebar textarea{
     width: 90%;
-    padding: 5px;
+    padding: 2px;
 }
 
 .button-1{
+    height: 30px;
     margin-top: 10px;
-    background-color: #e8491d;
-    font-size: 18px;
-    color: whitesmoke;
+    background-color: dodgerblue;
+    font-size: 16px;
+    margin-left: 2px;
+    color: black;
+    border:blue 1px solid;
+    border-radius: 15px;
 }
 
 footer{
     padding: 10px;
     margin-top: 10px;
-    color: antiquewhite;
-    background-color: #e8491d;
+    color: black;
+    background-color: cornflowerblue;
     text-align: center;
+    border-radius: 10px;
 }
 
 @media(max-width: 768px){
@@ -180,7 +195,7 @@ footer{
         width: 100%;
     }
     header{
-        padding-right: 10px;
+        padding-right: 20px;
     }
 
     #showcase h1{
